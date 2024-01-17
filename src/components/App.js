@@ -90,12 +90,12 @@ function App() {
       
   return (
     <div>
-        <h1>Our Menus</h1>
+        <h1>Our Menu</h1>
         <div className="menus">
-            <button onClick={() => setCat('all')}>All</button>
-            <button onClick={() => setCat('breakfast')}>Breakfast</button>
-            <button onClick={() => setCat('lunch')}>Lunch</button>
-            <button onClick={() => setCat('shakes')}>Shakes</button>
+            <button onClick={() => setCat('all')} >All</button>
+            <button onClick={() => setCat('breakfast')} id='filter-btn-1'>Breakfast</button>
+            <button onClick={() => setCat('lunch')} id='filter-btn-2'>Lunch</button>
+            <button onClick={() => setCat('shakes')} id='filter-btn-3'>Shakes</button>
         </div>
 
         <div>

@@ -2,10 +2,10 @@ import React from 'react'
 
 function Item({item}) {
   return (
-    <div>
+    <div id='main'>
         <h1 className="title">{item.title}</h1>
-        <span className='cat'>{item.category}</span>
-        <span className="price">{item.price}</span>
+        <p className='cat'>{item.category}</p>
+        <p className="price">$ {item.price}</p>
         <img src={item.img} alt="" />
         <p className='desc'>{item.desc}</p>
     </div>
