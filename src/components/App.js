@@ -89,7 +89,7 @@ function App() {
     }, [cat])
       
   return (
-    <div>
+    <div id='main'>
         <h1>Our Menu</h1>
         <div className="menus">
             <button onClick={() => setCat('all')} >All</button>
